@@ -898,3 +898,7 @@
 .profile-page .profile .name {
 	margin-top: -50px;
 }
+
+.profile-page .profile img {
+  max-width: 50%;
+}
