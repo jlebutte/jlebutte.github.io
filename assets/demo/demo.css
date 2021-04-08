@@ -898,3 +898,18 @@
 .profile-page .profile .name {
 	margin-top: -50px;
 }
+
+.main-image {
+    transform: scaleX(-1);
+	box-shadow: none;
+}
+
+.maserati-font {
+	font-size: .9pc;
+	font-family: Univers45,sans-serif;
+	color: black;
+}
+
+.main-image-text {
+	padding-bottom: 20px;	
+}
