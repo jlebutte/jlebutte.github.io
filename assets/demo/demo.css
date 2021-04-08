@@ -888,3 +888,12 @@
 .flash {
   animation-name: flash;
 }
+
+.main-logo {
+	background-color: white;
+    padding: 25px;
+}
+
+.profile-page .profile .name {
+	margin-top: -50px;
+}
