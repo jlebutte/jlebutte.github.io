@@ -912,4 +912,9 @@
 
 .main-image-text {
 	padding-bottom: 20px;	
+  
+}
+
+.profile-page .profile img {
+  max-width: 50%;
 }
