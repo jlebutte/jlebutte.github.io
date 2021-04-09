@@ -890,36 +890,36 @@
 }
 
 .main-logo {
-	background-color: white;
-    padding: 25px;
-	max-width: 320px;
+  background-color: white;
+  padding: 25px;
+  max-width: 320px;
 }
 
 .profile-page .profile .name {
-	margin-top: -50px;
+  margin-top: -50px;
 }
 
 .main-image {
-    transform: scaleX(-1);
-	box-shadow: none;
+  transform: scaleX(-1);
+  box-shadow: none;
 }
 
 .maserati-font {
-	font-size: .9pc;
-	font-family: Univers45,sans-serif;
-	color: black;
+  font-size: .9pc;
+  font-family: Univers45, sans-serif;
+  color: black;
 }
 
 
 .maserati-big-font {
-	font-size: 2.9pc;
+  font-size: 2.9pc;
 }
 
 
 
 .main-image-text {
-	padding-bottom: 20px;	
-  
+  padding-bottom: 20px;
+
 }
 
 .profile-page .profile img {
@@ -927,20 +927,89 @@
 }
 
 .profile-page .description {
-	max-width: 1200px;
+  max-width: 1200px;
 }
 
-.theme-pastel-red, .theme-pastel-red .description {
-	background-color: #ffbeba  !important;
-	color: white !important;
+.theme-pastel-red,
+.theme-pastel-red .description {
+  background-color: #ffbeba !important;
+  color: white !important;
 }
 
-.theme-orange, .theme-orange .description {
-	background-color: #ffb62f !important;
-	color: white !important;
+.theme-orange,
+.theme-orange .description {
+  background-color: #ffb62f !important;
+  color: white !important;
 }
 
-.theme-green, .theme-green .description {
-	background-color: #5cffac !important;
-	color: white !important;
+.theme-green,
+.theme-green .description {
+  background-color: #5cffac !important;
+  color: white !important;
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
