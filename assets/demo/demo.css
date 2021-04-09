@@ -918,3 +918,7 @@
 .profile-page .profile img {
   max-width: 50%;
 }
+
+.profile-page .description {
+	max-width: 1200px;
+}
