@@ -932,6 +932,7 @@
 
 .theme-pastel-red, .description {
 	background-color: #ffbeba  !important;
+  color: white !important;
 }
 
 .theme-orange, .description {
