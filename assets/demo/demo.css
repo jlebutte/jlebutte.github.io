@@ -932,13 +932,15 @@
 
 .theme-pastel-red, .theme-pastel-red .description {
 	background-color: #ffbeba  !important;
-  color: white;
+	color: white !important;
 }
 
 .theme-orange, .theme-orange .description {
 	background-color: #ffb62f !important;
+	color: white !important;
 }
 
 .theme-green, .theme-green .description {
 	background-color: #5cffac !important;
+	color: white !important;
 }
