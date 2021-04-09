@@ -930,15 +930,15 @@
 	max-width: 1200px;
 }
 
-.theme-pastel-red, .description {
+.theme-pastel-red, .theme-pastel-red .description {
 	background-color: #ffbeba  !important;
   color: white !important;
 }
 
-.theme-orange, .description {
+.theme-orange, .theme-orange .description {
 	background-color: #ffb62f !important;
 }
 
-.theme-orange, .description {
+.theme-green, .theme-green .description {
 	background-color: #5cffac !important;
 }
