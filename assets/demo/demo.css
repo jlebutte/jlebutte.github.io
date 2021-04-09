@@ -931,8 +931,8 @@
 }
 
 .theme-pastel-red, .theme-pastel-red .description {
-	background-color: #ffbeba  !important;
-	color: white !important;
+	background-color: white  !important;
+	color: black !important;
 }
 
 .theme-orange, .theme-orange .description {
